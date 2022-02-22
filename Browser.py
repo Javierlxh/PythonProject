@@ -9,9 +9,9 @@ print("Status code:")
 print("\t *", r.status_code)
 
 headers = {
-    'User-Agent' :'Iphone 8'
+    'User-Agent' :'Mobile'
 }
-url2 = 'http://httpbin.org/headers' 
+url2 = 'http://httpbin.org/headers'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
 
